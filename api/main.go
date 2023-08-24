@@ -7,6 +7,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	"github.com/jmarron7/go-url-shortener/routes"
 	"github.com/joho/godotenv"
 )
 
