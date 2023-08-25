@@ -83,7 +83,7 @@ func ShortenURL(c *fiber.Ctx) error {
 	// check if the user provided short is already in use
 	if val != "" {
 		return c.Status(fiber.StatusForbidden).JSON(fiber.Map{
-			"error": "URL short already in use",
+			"error": "Shortened URL already in use",
 		})
 	}
 
